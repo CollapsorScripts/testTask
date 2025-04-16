@@ -1,4 +1,5 @@
 # Часть сервиса аутентификации
+Выполнено по данному тз: https://medods.yonote.ru/share/a74f6d8d-1489-4b54-bd82-81af5bf50a03/doc/test-task-backdev-sCBrYs5n6e
 Конфигурация находится в ```./config/prod.yaml```
 ```yaml
 env: "prod" #Окружение
