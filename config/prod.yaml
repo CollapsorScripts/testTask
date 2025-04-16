@@ -1,0 +1,15 @@
+env: "prod" #Окружение
+database: #Параметры для подключения к базе данных
+  host: 0.0.0.0 #ip адрес сервера с БД
+  port: 5432 #порт для подключения к БД
+  user: postgres #пользователь БД
+  password: postgres #пароль БД
+  name: authdb #база данных
+paths: #пути для логов, желательно не трогать
+  files: ./files
+  logDir: ./log
+  logName: auth_service.log
+jwtSecret: "secret" #секретный ключ для кодирования jwt токена
+server: #серверные настройки
+  port: 8080 #порт прослушивание
+  timeout: 5s #тайм-аут ожидания
